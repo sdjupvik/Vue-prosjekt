@@ -1,0 +1,46 @@
+.sans {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+.w-max {
+    width: max-content;
+}
+
+body {
+    background-color: var(--bs-gray-200);
+}
+
+.custom-class {
+    width: 100%;
+}
+
+.profile-img {
+    width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+    .custom-class {
+        width: 70%;
+    }
+
+    .profile-img {
+        width: 40%;
+    }
+}
+
+.tag {
+    font-size: 0.8rem;
+    width: max-content;
+    margin-left: -2px;
+    font-size: 0.7rem;
+    padding: 1px 4px !important;
+}
+
+li {
+    list-style: none;
+    font-size: smaller;
+}
+
+.min {
+    min-width: 50px;
+}
